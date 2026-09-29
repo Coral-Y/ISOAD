@@ -35,11 +35,11 @@
   if (!grid) return;
 
   var speakers = [
-    { name: "Dean W. Felsher", role: "Invited Speaker", title: "Professor of Medicine (Oncology) and of Pathology, Stanford University", img: "dean-felsher.png" },
-    { name: "Yoichi Nabeshima", role: "Invited Speaker", title: "Professor, Department of Ageing Science and Medicine, Kyoto University", img: "yoichi-nabeshima.png" },
-    { name: "Alexey Moskalev", role: "Invited Speaker", title: "Professor · Corresponding Member of the Russian Academy of Sciences", img: "alexey-moskalev.png" },
-    { name: "YANG Qiang", role: "Invited Speaker", title: "Director, PolyU Academy for Artificial Intelligence, The Hong Kong Polytechnic University · Fellow of Royal Society of Canada · Fellow of Canadian Academy of Engineering", img: "yang-qiang.png" },
-    { name: "LIU Yang", role: "Invited Speaker", title: "Associate Professor · Presidential Young Scholar, The Hong Kong Polytechnic University", img: "liu-yang.png" }
+    { name: "Dean W. Felsher", role: "Invited Speaker", title: "Professor of Medicine (Oncology) and of Pathology, Sandford University ", img: "dean-felsher.png" },
+    { name: "Yoichi Nabeshima", role: "Invited Speaker", title: "Professor of department of ageing science and medicine, Kyoto University", img: "yoichi-nabeshima.png" },
+    { name: "Alexey Moskalev", role: "Invited Speaker", title: "Professor and Corresponding Member, the Russian Academy of Sciences", img: "alexey-moskalev.png" },
+    { name: "YANG Qiang", role: "Invited Speaker", title: "Director, PolyU Academy for Artificial Intelligence · Fellow of Royal Society of Canada · Fellow of Canadian Academy of Engineering", img: "yang-qiang.png" },
+    { name: "LIU Yang", role: "Invited Speaker", title: "Associate Professor, Presidential Young Scholar, PolyU", img: "liu-yang.png" }
   ];
 
   var IMG_DIR = "images/speakers/";

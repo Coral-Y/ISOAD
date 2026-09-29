@@ -100,9 +100,9 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .speaker { text-align: center; padding-bottom: 20px; transition: transform .15s ease, border-color .15s ease; }
 .speaker:hover { transform: translateY(-4px); border-color: var(--brand); }
 .speaker .avatar { width: 100%; aspect-ratio: 1/1; object-fit: cover; background: var(--bg-soft); }
-.speaker h3 { margin: 16px 0 2px; font-size: 18px; }
-.speaker .role { color: var(--brand-2); font-weight: 600; font-size: 14px; }
-.speaker .title { color: var(--muted); font-size: 13px; }
+.speaker h3 { margin: 16px 0 2px; font-size: 18px; padding: 0 8px; }
+.speaker .role { color: var(--brand-2); font-weight: 600; font-size: 14px; padding: 0 8px; }
+.speaker .title { color: var(--muted); font-size: 13px; padding: 0 8px; }
 
 /* Sponsors */
 .sponsor-tier { margin-bottom: 40px; }
