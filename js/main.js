@@ -35,15 +35,14 @@
   if (!grid) return;
 
   var speakers = [
-    { name: "Dr. Elena Vasquez", role: "Keynote Speaker", org: "Stanford University" },
-    { name: "Prof. Kenji Tanaka", role: "Invited Speaker", org: "University of Tokyo" },
-    { name: "Prof. Sofia Rossi", role: "Keynote Speaker", org: "ETH Zürich" },
-    { name: "Dr. Amara Okafor", role: "Panel Chair", org: "Johns Hopkins University" },
-    { name: "Dr. Liam Fischer", role: "Invited Speaker", org: "Karolinska Institute" },
-    { name: "Dr. Marcus Bright", role: "Invited Speaker", org: "University of Oxford" },
-    { name: "Dr. Priya Nair", role: "Invited Speaker", org: "National University of Singapore" },
-    { name: "Dr. Hannah Lee", role: "Invited Speaker", org: "The University of Hong Kong" }
+    { name: "Dean W. Felsher", role: "Invited Speaker", title: "Professor of Medicine (Oncology) and of Pathology, Stanford University", img: "dean-felsher.png" },
+    { name: "Yoichi Nabeshima", role: "Invited Speaker", title: "Professor, Department of Ageing Science and Medicine, Kyoto University", img: "yoichi-nabeshima.png" },
+    { name: "Alexey Moskalev", role: "Invited Speaker", title: "Professor · Corresponding Member of the Russian Academy of Sciences", img: "alexey-moskalev.png" },
+    { name: "YANG Qiang", role: "Invited Speaker", title: "Director, PolyU Academy for Artificial Intelligence, The Hong Kong Polytechnic University · Fellow of Royal Society of Canada · Fellow of Canadian Academy of Engineering", img: "yang-qiang.png" },
+    { name: "LIU Yang", role: "Invited Speaker", title: "Associate Professor · Presidential Young Scholar, The Hong Kong Polytechnic University", img: "liu-yang.png" }
   ];
+
+  var IMG_DIR = "images/speakers/";
 
   var palettes = [
     ["#5b8cff", "#22d3ee"], ["#f5a623", "#ff6b6b"], ["#22d3ee", "#5b8cff"],
@@ -70,11 +69,14 @@
   }
 
   grid.innerHTML = speakers.map(function (s, i) {
+    var fallback = avatar(s.name, i);
+    var src = s.img ? (IMG_DIR + s.img) : fallback;
     return '<div class="card speaker">' +
-      '<img class="avatar" src="' + avatar(s.name, i) + '" alt="' + s.name + '" />' +
+      '<img class="avatar" src="' + src + '" alt="' + s.name + '" ' +
+      'onerror="this.onerror=null;this.src=\'' + fallback + '\'" />' +
       '<h3>' + s.name + '</h3>' +
       '<div class="role">' + s.role + '</div>' +
-      '<div class="org">' + s.org + '</div>' +
+      '<div class="title">' + s.title + '</div>' +
       '</div>';
   }).join("");
 })();
