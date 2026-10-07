@@ -31,7 +31,31 @@ const speakers = [
     role: "Invited Speaker", 
     title: "Associate Professor, Presidential Young Scholar, PolyU · Dean of Institute for AI Industry ResearchTsinghua University", 
     img: "liu-yang.png"
-  }
+  },
+  { 
+    name: "ZHU Jiankang", 
+    role: "Invited Speaker", 
+    title: "President, Macau University of Science and Technology · Member, U.S. National Academy of Sciences",
+    img: "zhu-jiankang.png"
+  },
+  { 
+    name: "JIANG Zhihong", 
+    role: "Invited Speaker", 
+    title: "Vice President, Macau University of Science and Technology · Director, State Key Laboratory for Quality Research in Chinese Medicines",
+    img: "jiang-zhihong.png"
+  },
+  { 
+    name: "LV Hongxuan", 
+    role: "Invited Speaker", 
+    title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
+    img: "lv-hongxuan.png"
+  },
+  { 
+    name: "Evelyne Yehudit Bischof", 
+    role: "Invited Speaker", 
+    title: "Professor, Shanghai University of Medicine and Health Sciences, China · Visiting Professor, Tel Aviv University School of Medicine, Israel",
+    img: "evelyne-bischof.png"
+  },
 ];
 
 // Program data
