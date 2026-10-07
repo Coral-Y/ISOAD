@@ -45,10 +45,10 @@ const speakers = [
     img: "jiang-zhihong.png"
   },
   { 
-    name: "LV Hongxuan", 
+    name: "LV Yuxuan", 
     role: "Invited Speaker", 
     title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
-    img: "lv-hongxuan.png"
+    img: "lv-yuxuan.png"
   },
   { 
     name: "Evelyne Yehudit Bischof", 
