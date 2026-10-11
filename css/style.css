@@ -126,6 +126,7 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 /* About */
 .about-head { margin: 0 auto 32px; }
 .about-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 34px; align-items: center; }
+.about-grid.wide-left { grid-template-columns: 2fr 1fr; }
 .about-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 12px; }
 .about-list li { display: flex; gap: 12px; }
 .about-list .tick { color: var(--brand-2); font-weight: 900; }
@@ -176,6 +177,17 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 
 .tag { display: inline-block; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; padding: 3px 10px; border-radius: 999px; background: rgba(38,76,200,.08); color: var(--brand); border: 1px solid var(--border); margin-bottom: 8px; }
 
+/* Topic popover */
+.link-btn { background: none; border: none; padding: 0; font: inherit; color: var(--brand); text-decoration: underline; cursor: pointer; }
+.link-btn:hover { color: var(--brand-2); }
+.topic-popover { width: min(480px, calc(100% - 40px)); padding: 22px 26px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); color: var(--text); box-shadow: var(--shadow); }
+.topic-popover::backdrop { background: rgba(22, 32, 58, .35); }
+.topic-popover-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.topic-popover-head h3 { margin: 0; }
+.topic-popover-close { background: none; border: none; font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer; }
+.topic-popover-close:hover { color: var(--text); }
+.topic-popover ol { margin: 0; padding-left: 22px; display: grid; gap: 6px; color: var(--muted); }
+
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); background: var(--bg-soft); padding: 40px 0; margin-top: 20px; }
 .footer-grid { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; align-items: center; }
@@ -184,7 +196,7 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 @media (max-width: 900px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
   .grid.cols-3, .grid.cols-4 { grid-template-columns: repeat(2, 1fr); }
-  .about-grid { grid-template-columns: 1fr; }
+  .about-grid, .about-grid.wide-left { grid-template-columns: 1fr; }
   .tracks { grid-template-columns: 1fr; }
   .nav-links { position: absolute; top: 66px; left: 0; right: 0; background: var(--bg-soft); flex-direction: column; gap: 0; border-bottom: 1px solid var(--border); display: none; }
   .nav-links.open { display: flex; }
