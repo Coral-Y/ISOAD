@@ -8,12 +8,12 @@ const speakers = [
     title: "Professor of Medicine (Oncology) and of Pathology, Stanford University",
     img: "dean-felsher.png"
   },
-  {
-    name: "Yoichi Nabeshima", 
-    role: "Invited Speaker", 
-    title: "Professor of department of ageing science and medicine, Kyoto University", 
-    img: "yoichi-nabeshima.png" 
-  },
+  // {
+  //   name: "Yoichi Nabeshima", 
+  //   role: "Invited Speaker", 
+  //   title: "Professor of department of ageing science and medicine, Kyoto University", 
+  //   img: "yoichi-nabeshima.png" 
+  // },
   { 
     name: "Alexey Moskalev", 
     role: "Invited Speaker", 
