@@ -128,3 +128,29 @@
       '</div>';
   }).join("");
 })();
+
+// Tickets rendering (data comes from js/config.js)
+(function () {
+  const grid = document.getElementById("tickets-grid");
+  if (!grid) return;
+
+  const now = Date.now();
+  grid.innerHTML = tickets.map(function (t) {
+    const expired = t.deadline && now > new Date(t.deadline).getTime();
+    let action;
+    if (expired) {
+      action = '<button type="button" class="btn" disabled>Closed</button>';
+    } else if (t.link) {
+      action = '<a class="btn" href="' + t.link + '">Pay Now</a>';
+    } else {
+      action = '<button type="button" class="btn" disabled>Coming Soon</button>';
+    }
+    return '<div class="card fee ticket' + (expired ? ' expired' : '') + '">' +
+      '<div class="fee-type">' + t.name + '</div>' +
+      (t.note ? '<div class="fee-who">' + t.note + '</div>' : '') +
+      '<div class="fee-price">' + CURRENCY + t.price + '</div>' +
+      action +
+      '</div>';
+  }).join("");
+})();
+

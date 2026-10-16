@@ -58,6 +58,42 @@ const speakers = [
   },
 ];
 
+// Ticket / payment data
+// link: Stripe Payment Link URL (leave empty until created)
+// deadline: optional ISO date-time; ticket becomes unavailable after it
+// Layout: the first 2 tickets form the first row, the rest the second row
+const CURRENCY = "$";
+
+const tickets = [
+  {
+    name: "One-Day Registration",
+    price: 250,
+    link: ""
+  },
+  {
+    name: "Full Conference Registration",
+    price: 500,
+    link: ""
+  },
+  {
+    name: "Early Bird Registration",
+    price: 200,
+    deadline: "2026-10-30T23:59:59+08:00",
+    note: "Available until October 30, 2026",
+    link: ""
+  },
+  {
+    name: "Student Registration",
+    price: 100,
+    link: ""
+  },
+  {
+    name: "Non-Presenter Registration",
+    price: 300,
+    link: ""
+  }
+];
+
 // Program data
 // Day -> periods -> items. Item types:
 //   "block":    { type, tag, title, meta, talks }

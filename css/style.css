@@ -123,6 +123,21 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .fee-who { color: var(--muted); font-size: 14px; }
 .fee-price { font-size: 34px; font-weight: 800; color: var(--brand); margin-top: 8px; }
 
+/* Full-height page layout */
+.page-fill { min-height: 100vh; display: flex; flex-direction: column; }
+.page-fill .page-main { flex: 1; }
+
+/* Payment tickets */
+.tickets { grid-template-columns: repeat(6, 1fr); }
+.tickets .ticket { grid-column: span 2; }
+.tickets .ticket:nth-child(1) { grid-column: 2 / span 2; }
+.tickets .ticket:nth-child(2) { grid-column: 4 / span 2; }
+.ticket { display: flex; flex-direction: column; text-align: center; }
+.ticket .fee-price { margin: 12px 0 20px; }
+.ticket .btn { margin-top: auto; align-self: center; }
+.ticket.expired { opacity: .6; }
+.btn:disabled, .btn:disabled:hover { background: #cfd6e4; color: #7a879f !important; cursor: not-allowed; transform: none; box-shadow: none; font: inherit; font-weight: 700; }
+
 /* About */
 .about-head { margin: 0 auto 32px; }
 .about-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 34px; align-items: center; }
@@ -196,6 +211,8 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 @media (max-width: 900px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
   .grid.cols-3, .grid.cols-4 { grid-template-columns: repeat(2, 1fr); }
+  .tickets { grid-template-columns: repeat(2, 1fr); }
+  .tickets .ticket, .tickets .ticket:nth-child(1), .tickets .ticket:nth-child(2) { grid-column: auto; }
   .about-grid, .about-grid.wide-left { grid-template-columns: 1fr; }
   .tracks { grid-template-columns: 1fr; }
   .nav-links { position: absolute; top: 66px; left: 0; right: 0; background: var(--bg-soft); flex-direction: column; gap: 0; border-bottom: 1px solid var(--border); display: none; }
@@ -205,6 +222,7 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 }
 @media (max-width: 640px) {
   .grid.cols-3, .grid.cols-4 { grid-template-columns: 1fr; }
+  .tickets { grid-template-columns: 1fr; }
   .fees { grid-template-columns: 1fr; }
   .talk { grid-template-columns: 1fr; gap: 4px; }
 }
