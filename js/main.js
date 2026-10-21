@@ -147,9 +147,9 @@
     }
     return '<div class="card fee ticket' + (expired ? ' expired' : '') + '">' +
       '<div class="fee-type">' + t.name + '</div>' +
-      (t.note ? '<div class="fee-who">' + t.note + '</div>' : '') +
+      (t.note ? '<div class="fee-who">' + t.note + '</div>' : '<div class="fee-who" style="visibility:hidden;">&nbsp;</div>') +
       '<div class="fee-price">' + CURRENCY + t.price + '</div>' +
-      action +
+      // action +
       '</div>';
   }).join("");
 })();

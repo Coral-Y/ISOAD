@@ -68,28 +68,32 @@ const tickets = [
   {
     name: "One-Day Registration",
     price: 250,
+    note: "Access to one conference day",
     link: ""
   },
   {
     name: "Full Conference Registration",
-    price: 500,
+    price: 600,
+    note: "Access to both days, December 4–5",
     link: ""
   },
   {
     name: "Early Bird Registration",
-    price: 200,
+    price: 300,
     deadline: "2026-10-30T23:59:59+08:00",
     note: "Available until October 30, 2026",
     link: ""
   },
   {
     name: "Student Registration",
-    price: 100,
+    price: 200,
+    note: "For full-time students",
     link: ""
   },
   {
     name: "Non-Presenter Registration",
     price: 300,
+    note: "For family members or accompanying persons",
     link: ""
   }
 ];

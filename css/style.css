@@ -120,12 +120,8 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .fees { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; max-width: 640px; margin: 0 auto 26px; }
 .fee { padding: 24px; }
 .fee-type { font-weight: 700; }
-.fee-who { color: var(--muted); font-size: 14px; }
+.fee-who { color: var(--muted); font-size: 14px; margin-top: 4px; }
 .fee-price { font-size: 34px; font-weight: 800; color: var(--brand); margin-top: 8px; }
-
-/* Full-height page layout */
-.page-fill { min-height: 100vh; display: flex; flex-direction: column; }
-.page-fill .page-main { flex: 1; }
 
 /* Payment tickets */
 .tickets { grid-template-columns: repeat(6, 1fr); }
@@ -133,7 +129,7 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .tickets .ticket:nth-child(1) { grid-column: 2 / span 2; }
 .tickets .ticket:nth-child(2) { grid-column: 4 / span 2; }
 .ticket { display: flex; flex-direction: column; text-align: center; }
-.ticket .fee-price { margin: 12px 0 20px; }
+.ticket .fee-price { margin: 8px 0 20px; }
 .ticket .btn { margin-top: auto; align-self: center; }
 .ticket.expired { opacity: .6; }
 .btn:disabled, .btn:disabled:hover { background: #cfd6e4; color: #7a879f !important; cursor: not-allowed; transform: none; box-shadow: none; font: inherit; font-weight: 700; }
