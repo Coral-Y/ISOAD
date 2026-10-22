@@ -67,7 +67,7 @@ const CURRENCY = "$";
 const tickets = [
   {
     name: "One-Day Registration",
-    price: 250,
+    price: 350,
     note: "Access to one conference day",
     link: ""
   },
