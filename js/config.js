@@ -66,34 +66,34 @@ const CURRENCY = "$";
 
 const tickets = [
   {
+    name: "Early Registration Discount",
+    price: 300,
+    deadline: "2026-10-30T23:59:59+08:00",
+    note: "Access to both days, December 4–5 · Available until October 30, 2026",
+    link: ""
+  },
+  {
+    name: "Full Conference Registration for Faculty",
+    price: 600,
+    note: "Access to both days, December 4–5",
+    link: ""
+  },
+  {
+    name: "Non-Presenter Registration",
+    price: 250,
+    note: "For family members or accompanying persons",
+    link: ""
+  },
+  {
     name: "One-Day Registration",
     price: 350,
     note: "Access to one conference day",
     link: ""
   },
   {
-    name: "Full Conference Registration",
-    price: 600,
-    note: "Access to both days, December 4–5",
-    link: ""
-  },
-  {
-    name: "Early Bird Registration",
+    name: "Student/Postdoc Registration",
     price: 300,
-    deadline: "2026-10-30T23:59:59+08:00",
-    note: "Available until October 30, 2026",
-    link: ""
-  },
-  {
-    name: "Student Registration",
-    price: 200,
-    note: "For full-time students",
-    link: ""
-  },
-  {
-    name: "Non-Presenter Registration",
-    price: 300,
-    note: "For family members or accompanying persons",
+    note: "For full-time students and postdoctoral researchers",
     link: ""
   }
 ];
