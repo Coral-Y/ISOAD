@@ -70,31 +70,31 @@ const tickets = [
     price: 300,
     deadline: "2026-10-30T23:59:59+08:00",
     note: "Access to both days, December 4–5 · Available until October 30, 2026",
-    link: ""
+    link: "https://buy.stripe.com/bJe7sLfv9gW76iF7nI8og05"
   },
   {
     name: "Full Conference Registration for Faculty",
     price: 600,
     note: "Access to both days, December 4–5",
-    link: ""
+    link: "https://buy.stripe.com/aFaeVdciXaxJ5eBgYi8og04"
   },
   {
     name: "Non-Presenter Registration",
     price: 250,
     note: "For family members or accompanying persons",
-    link: ""
+    link: "https://buy.stripe.com/3cIbJ13Mr0X936t23o8og00"
   },
   {
     name: "One-Day Registration",
     price: 350,
     note: "Access to one conference day",
-    link: ""
+    link: "https://buy.stripe.com/9B64gz5Uz9tF0Yl8rM8og03"
   },
   {
     name: "Student/Postdoc Registration",
     price: 300,
     note: "For full-time students and postdoctoral researchers",
-    link: ""
+    link: "https://buy.stripe.com/5kQ28r5Uz49lcH39vQ8og02"
   }
 ];
 
