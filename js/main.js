@@ -141,7 +141,7 @@
     if (expired) {
       action = '<button type="button" class="btn" disabled>Closed</button>';
     } else if (t.link) {
-      action = '<a class="btn" href="' + t.link + '" target="_blank" rel="noopener noreferrer">Pay Now</a>';
+      action = '<a class="btn" href="' + t.link + '" target="_blank" rel="noopener noreferrer">Register and Pay</a>';
     } else {
       action = '<button type="button" class="btn" disabled>Coming Soon</button>';
     }
