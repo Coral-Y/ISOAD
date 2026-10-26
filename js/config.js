@@ -62,7 +62,7 @@ const speakers = [
 // link: Stripe Payment Link URL (leave empty until created)
 // deadline: optional ISO date-time; ticket becomes unavailable after it
 // Layout: the first 2 tickets form the first row, the rest the second row
-const CURRENCY = "$";
+const CURRENCY = "US$";
 
 const tickets = [
   {
