@@ -29,7 +29,7 @@ const speakers = [
   { 
     name: "Yang Veronica Liu",
     role: "Invited Speaker", 
-    title: "Co-Director of Research Institute of Federated Learning · Associate Professor, President Young Scholar",
+    title: "Co-Director of Research Institute of Federated Learning · Associate Professor, Presidential Young Scholar, PolyU",
     img: "liu-yang.png"
   },
   { 
