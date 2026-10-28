@@ -21,31 +21,31 @@ const speakers = [
     img: "alexey-moskalev.png" 
   },
   { 
-    name: "YANG Qiang", 
+    name: "Qiang Yang",
     role: "Invited Speaker", 
     title: "Director, PolyU Academy for Artificial Intelligence · Fellow of Royal Society of Canada · Fellow of Canadian Academy of Engineering", 
     img: "yang-qiang.png" 
   },
   { 
-    name: "LIU Yang", 
+    name: "Yang Veronica Liu",
     role: "Invited Speaker", 
-    title: "Associate Professor, Presidential Young Scholar, PolyU · Dean of Institute for AI Industry ResearchTsinghua University", 
+    title: "Co-Director of Research Institute of Federated Learning · Associate Professor, President Young Scholar",
     img: "liu-yang.png"
   },
   { 
-    name: "ZHU Jiankang", 
+    name: "Jiankang Zhu",
     role: "Invited Speaker", 
     title: "President, Macau University of Science and Technology · Member, U.S. National Academy of Sciences",
     img: "zhu-jiankang.png"
   },
   { 
-    name: "JIANG Zhihong", 
+    name: "Zhihong Jiang",
     role: "Invited Speaker", 
     title: "Vice President, Macau University of Science and Technology · Director, State Key Laboratory for Quality Research in Chinese Medicines",
     img: "jiang-zhihong.png"
   },
   { 
-    name: "LV Yuxuan", 
+    name: "Yuxuan Lv",
     role: "Invited Speaker", 
     title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
     img: "lv-yuxuan.png"
