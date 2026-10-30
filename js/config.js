@@ -8,6 +8,12 @@ const speakers = [
     title: "Professor of Medicine (Oncology) and of Pathology, Stanford University",
     img: "dean-felsher.png"
   },
+  {
+    name: "Raju Kucherlapati",
+    role: "Invited Speaker",
+    title: "Professor of Genetics, Harvard Medical School · Member of the National Academy of Medicine",
+    img: "raju-kucherlapati.png"
+  },
   // {
   //   name: "Yoichi Nabeshima", 
   //   role: "Invited Speaker", 
@@ -19,6 +25,12 @@ const speakers = [
     role: "Invited Speaker", 
     title: "Professor and Corresponding Member, the Russian Academy of Sciences", 
     img: "alexey-moskalev.png" 
+  },
+  {
+    name: "Steve Horvath",
+    role: "Invited Speaker (Virtual)",
+    title: "Professor, University of California, Los Angeles (UCLA) · Principal Investigator, Altos Labs San Diego Institute of Science",
+    img: "steve-horvath.png"
   },
   { 
     name: "Qiang Yang",
@@ -68,8 +80,8 @@ const tickets = [
   {
     name: "Early Registration Discount",
     price: 300,
-    deadline: "2026-10-30T23:59:59+08:00",
-    note: "Access to both days, December 4–5 · Available until October 30, 2026",
+    deadline: "2026-10-31T23:59:59+08:00",
+    note: "Access to both days, December 4–5 · Available until October 31, 2026",
     link: "https://buy.stripe.com/bJe7sLfv9gW76iF7nI8og05"
   },
   {

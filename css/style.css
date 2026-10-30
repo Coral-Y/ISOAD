@@ -134,7 +134,7 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .ticket .fee-price { margin: 8px 0 20px; }
 .ticket .btn { margin-top: auto; align-self: center; }
 .ticket.expired { opacity: .6; }
-.registration-note {
+.important-note {
   width: fit-content;
   max-width: 100%;
   margin: 28px auto 0;
@@ -146,7 +146,7 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
   border: 1px solid rgba(38, 76, 200, .24);
   border-radius: 10px;
 }
-.registration-note a { font-weight: 700; text-decoration: underline; }
+.important-note a { font-weight: 700; text-decoration: underline; }
 .btn:disabled, .btn:disabled:hover { background: #cfd6e4; color: #7a879f !important; cursor: not-allowed; transform: none; box-shadow: none; font: inherit; font-weight: 700; }
 
 /* About */
