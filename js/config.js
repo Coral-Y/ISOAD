@@ -62,6 +62,18 @@ const speakers = [
     title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
     img: "lv-yuxuan.png"
   },
+  {
+    name: "Kenneth Mao",
+    role: "Invited Speaker",
+    title: "Specialist at Union Reproductive Medicine Centre · Fellow of the Royal College of Obstetricians and Gynaecologists",
+    img: "kenneth-mao.png"
+  },
+  {
+    name: "Hua Wen",
+    role: "Invited Speaker",
+    title: "Programme Specialist for Women's Health, United Nations Population Fund (UNFPA) China Office",
+    img: "hua-wen.png"
+  },
   { 
     name: "Evelyne Yehudit Bischof", 
     role: "Invited Speaker", 
