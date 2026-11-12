@@ -63,6 +63,12 @@ const speakers = [
     img: "lv-yuxuan.png"
   },
   {
+    name: "Edwin Lau",
+    role: "Invited Speaker",
+    title: "Chief Medical Executive (Clinics), Parkway Medical Services",
+    img: "edwin-lau.png"
+  },
+  {
     name: "Kenneth Mao",
     role: "Invited Speaker",
     title: "Specialist at Union Reproductive Medicine Centre · Fellow of the Royal College of Obstetricians and Gynaecologists",
