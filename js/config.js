@@ -63,28 +63,34 @@ const speakers = [
     img: "lv-yuxuan.png"
   },
   {
-    name: "Edwin Lau",
-    role: "Invited Speaker",
-    title: "Chief Medical Executive (Clinics), Parkway Medical Services",
-    img: "edwin-lau.png"
-  },
-  {
     name: "Kenneth Mao",
     role: "Invited Speaker",
     title: "Specialist at Union Reproductive Medicine Centre · Fellow of the Royal College of Obstetricians and Gynaecologists",
     img: "kenneth-mao.png"
-  },
-  {
-    name: "Hua Wen",
-    role: "Invited Speaker",
-    title: "Programme Specialist for Women's Health, United Nations Population Fund (UNFPA) China Office",
-    img: "hua-wen.png"
   },
   { 
     name: "Evelyne Yehudit Bischof", 
     role: "Invited Speaker", 
     title: "Professor, Shanghai University of Medicine and Health Sciences, China · Visiting Professor, Tel Aviv University School of Medicine, Israel",
     img: "evelyne-bischof.png"
+  },
+  {
+    name: "Wanviput Sanphasitvong",
+    role: "Invited Speaker",
+    title: "Business Development Director, Vitallife Scientific Wellness Center, Bumrungrad International Hospital · CEO, LifestyleTech Solution Co., Ltd.",
+    img: "wanviput-sanphasitvong.jpg"
+  },
+  {
+    name: "Edwin Lau",
+    role: "Invited Speaker",
+    title: "Chief Medical Executive (Clinics), Parkway Medical Services",
+    img: "edwin-lau.png"
+  },
+  {
+    name: "Iva Ng",
+    role: "Invited Speaker",
+    title: "Founder, ING Bespoke · VP Business Growth, APAC, Acclaro Medical",
+    img: "iva-ng.jpg"
   },
 ];
 
