@@ -92,6 +92,12 @@ const speakers = [
     title: "Founder, ING Bespoke · VP Business Growth, APAC, Acclaro Medical",
     img: "iva-ng.jpg"
   },
+  {
+    name: "Weimo Zhu",
+    role: "Invited Speaker",
+    title: "Fellow of the National Academy of Kinesiology · Professor Emeritus, University of Illinois Urbana-Champaign",
+    img: "weimo-zhu.png"
+  },
 ];
 
 // Ticket / payment data
