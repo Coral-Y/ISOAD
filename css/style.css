@@ -125,11 +125,23 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .sponsor-tier { margin-bottom: 40px; }
 .sponsor-tier h3 { text-align: center; color: var(--muted); text-transform: uppercase; letter-spacing: 2px; font-size: 14px; }
 .sponsor-logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; }
+.sponsor-profile {
+  display: grid; grid-template-columns: 1fr 320px; align-items: stretch;
+  max-width: 1000px; margin: 0 auto 40px; overflow: hidden;
+  background: linear-gradient(135deg, var(--bg-soft), #ffffff); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: 0 6px 20px rgba(38,76,200,.06);
+}
 .sponsor {
   background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 22px 30px; font-weight: 800; letter-spacing: .5px; color: var(--text);
   display: grid; place-items: center; min-width: 180px; min-height: 84px;
 }
+.sponsor-logo { display: grid; place-items: center; margin: 30px; padding: 30px; background: #ffffff; border: 1px solid var(--border); border-radius: 10px; }
+.sponsor-logo img { width: 100%; height: 64px; object-fit: contain; }
+.sponsor-description { padding: 40px 12px 40px 44px; color: var(--muted); line-height: 1.7; }
+.sponsor-description p { margin: 0; }
+.sponsor-description h3 { margin: 8px 0 14px; color: var(--text); font-size: 25px; }
+.sponsor-description .sponsor-label { display: inline-block; padding: 5px 10px; color: var(--brand); background: rgba(38,76,200,.08); border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; }
 .sponsor.platinum { min-width: 240px; min-height: 110px; font-size: 22px; }
 .sponsor.gold { min-width: 200px; min-height: 96px; font-size: 19px; }
 
@@ -261,6 +273,9 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 @media (max-width: 640px) {
   .grid.cols-3, .grid.cols-4 { grid-template-columns: 1fr; }
   .tickets { grid-template-columns: 1fr; }
+  .sponsor-profile { grid-template-columns: 1fr; }
+  .sponsor-description { padding: 30px 24px 12px; }
+  .sponsor-logo { margin: 20px 24px 28px; padding: 26px; }
   .partner-logos { flex-direction: column; }
   .partner-logo { width: 100%; flex: none; }
   .fees { grid-template-columns: 1fr; }
