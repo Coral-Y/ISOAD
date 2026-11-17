@@ -98,6 +98,12 @@ const speakers = [
     title: "Fellow of the National Academy of Kinesiology · Professor Emeritus, University of Illinois Urbana-Champaign",
     img: "weimo-zhu.png"
   },
+  {
+    name: "Christopher Chao",
+    role: "Invited Speaker",
+    title: "Senior Vice President, The Hong Kong Polytechnic University",
+    img: "christopher-chao.png"
+  },
 ];
 
 // Ticket / payment data
