@@ -57,7 +57,7 @@ const speakers = [
     img: "jiang-zhihong.png"
   },
   { 
-    name: "Yuxuan Lv",
+    name: "Yuxuan Lyu",
     role: "Invited Speaker", 
     title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
     img: "lv-yuxuan.png"
