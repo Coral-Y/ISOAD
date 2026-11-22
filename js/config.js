@@ -100,7 +100,7 @@ const speakers = [
   },
   {
     name: "Christopher Chao",
-    role: "Invited Speaker",
+    role: "Acknowledgment",
     title: "Senior Vice President, The Hong Kong Polytechnic University",
     img: "christopher-chao.png"
   },

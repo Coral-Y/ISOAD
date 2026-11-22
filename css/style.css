@@ -120,14 +120,13 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
 .partner-group-wide .partner-logo { height: 140px; padding: 12px; }
 .partner-group-wide .partner-logo img { height: 100px; }
 .organizer-logos { max-width: 824px; margin: 0 auto; }
+.organizer-logos-single { max-width: 400px; }
 .organizer-logo { height: 210px; grid-template-rows: 1fr auto; gap: 12px; }
 .organizer-label { color: var(--text); font-size: 13px; font-weight: 600; }
 .partner-logos-combined { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
 .partner-logos-combined .partner-logo { grid-column: span 4; height: 140px; padding: 18px; }
 .partner-logos-combined .partner-logo:nth-child(n + 4) { grid-column: span 3; }
 .partner-logos-combined .partner-logo img { height: 100px; }
-.title-sponsor-logos { max-width: 320px; margin: 0 auto; }
-
 /* Registration fees */
 .fees { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; max-width: 640px; margin: 0 auto 26px; }
 .fee { padding: 24px; }
