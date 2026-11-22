@@ -33,31 +33,31 @@ const speakers = [
     img: "steve-horvath.png"
   },
   { 
-    name: "Qiang Yang",
+    name: "Qiang YANG",
     role: "Invited Speaker", 
     title: "Director, PolyU Academy for Artificial Intelligence · Fellow of Royal Society of Canada · Fellow of Canadian Academy of Engineering", 
     img: "yang-qiang.png" 
   },
   { 
-    name: "Yang Veronica Liu",
+    name: "Yang LIU",
     role: "Invited Speaker", 
     title: "Co-Director of Research Institute of Federated Learning · Associate Professor, President Young Scholar, PolyU",
     img: "liu-yang.png"
   },
   { 
-    name: "Jiankang Zhu",
+    name: "Jiankang ZHU",
     role: "Invited Speaker", 
     title: "President, Macau University of Science and Technology · Member, U.S. National Academy of Sciences",
     img: "zhu-jiankang.png"
   },
   { 
-    name: "Zhihong Jiang",
+    name: "Zhihong JIANG",
     role: "Invited Speaker", 
     title: "Vice President, Macau University of Science and Technology · Director, State Key Laboratory for Quality Research in Chinese Medicines",
     img: "jiang-zhihong.png"
   },
   { 
-    name: "Yuxuan Lyu",
+    name: "Yuxuan LYU",
     role: "Invited Speaker", 
     title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
     img: "lv-yuxuan.png"
@@ -93,7 +93,7 @@ const speakers = [
     img: "iva-ng.jpg"
   },
   {
-    name: "Weimo Zhu",
+    name: "Weimo ZHU",
     role: "Invited Speaker",
     title: "Fellow of the National Academy of Kinesiology · Professor Emeritus, University of Illinois Urbana-Champaign",
     img: "weimo-zhu.png"
@@ -103,6 +103,18 @@ const speakers = [
     role: "Acknowledgment",
     title: "Senior Vice President, The Hong Kong Polytechnic University",
     img: "christopher-chao.png"
+  },
+  {
+    name: "Xue FENG",
+    role: "Invited Speaker",
+    title: "Executive Deputy Director · Vice-Chair and Secretary-General · Director, Cardiac Rehabilitation Center",
+    img: "xue-feng.png"
+  },
+  {
+    name: "Xue BAI",
+    role: "Invited Speaker",
+    title: "Associate Dean, Faculty of Health and Social Sciences · Professor, Department of Applied Social Sciences",
+    img: "xue-bai.jpg"
   },
 ];
 
