@@ -81,6 +81,12 @@ const speakers = [
     img: "yang-qiang.png"
   },
   {
+    name: "Yongping ZHENG",
+    role: "Keynote Speaker",
+    title: "Henry G. Leong Professor in Biomedical Engineering · Director, Research Institute for Smart Ageing · Director, Jockey Club Smart Ageing Hub",
+    img: "yongping-zheng.png"
+  },
+  {
     name: "Jiankang ZHU",
     role: "Keynote Speaker",
     title: "President, Macau University of Science and Technology · Member, U.S. National Academy of Sciences",
