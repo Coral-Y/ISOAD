@@ -119,12 +119,41 @@
   const grid = document.getElementById("speakers-grid");
   if (!grid) return;
 
-  grid.innerHTML = speakers.map(function (s) {
+  const roleLabels = {
+    "Acknowledgment": "Acknowledgment",
+    "Keynote Speaker": "Keynote Speakers",
+    "Longevity & Lifestyle Medicine Training": "Longevity & Lifestyle Medicine Training Speakers"
+  };
+  const groups = speakers.reduce(function (list, speaker) {
+    const roles = Array.isArray(speaker.role) ? speaker.role : [speaker.role];
+    roles.forEach(function (role) {
+      let group = list.find(function (item) { return item.role === role; });
+      if (!group) {
+        group = { role: role, speakers: [] };
+        list.push(group);
+      }
+      group.speakers.push(speaker);
+    });
+    return list;
+  }, []);
+
+  function renderSpeakerCard(s) {
     return '<div class="card speaker">' +
       '<img class="avatar" src="' + IMG_DIR + s.img + '" alt="' + s.name + '" />' +
       '<h3>' + s.name + '</h3>' +
-      '<div class="role">' + s.role + '</div>' +
       '<div class="title">' + s.title + '</div>' +
+      '</div>';
+  }
+
+  grid.innerHTML = groups.map(function (group) {
+    group.speakers.sort(function (a, b) {
+      const surnameA = a.name.trim().split(/\s+/).pop();
+      const surnameB = b.name.trim().split(/\s+/).pop();
+      return surnameA.localeCompare(surnameB, "en", { sensitivity: "base" });
+    });
+    return '<div class="speaker-group">' +
+      '<h3 class="speaker-group-title">' + (roleLabels[group.role] || group.role) + '</h3>' +
+      '<div class="grid cols-3">' + group.speakers.map(renderSpeakerCard).join("") + '</div>' +
       '</div>';
   }).join("");
 })();
