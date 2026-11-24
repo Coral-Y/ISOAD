@@ -108,7 +108,24 @@
           <h3>Before you begin, please prepare the following information</h3>
           <ul class="muted" style="margin:10px 0 0;padding-left:20px;display:grid;gap:8px;">
             <li><strong style="color:var(--text)">Presenting author's contact details:</strong> email address, full postal address, daytime and evening phone number.</li>
-            <li><strong style="color:var(--text)">Presentation type:</strong> poster (120 cm in width and 200 cm in length) or oral. <a class="link-btn" href="public/poster-template.ai" download>Poster template</a></li>
+            <li><strong style="color:var(--text)">Presentation type:</strong> poster (120 cm in width and 200 cm in length) or oral. <button type="button" class="link-btn" popovertarget="poster-guidelines">Poster guidelines</button>
+              <div id="poster-guidelines" class="topic-popover" popover>
+                <div class="topic-popover-head">
+                  <h3>Poster Template &amp; Submission</h3>
+                  <button type="button" class="topic-popover-close" popovertarget="poster-guidelines" popovertargetaction="hide" aria-label="Close">×</button>
+                </div>
+                <ul>
+                  <li><strong>Colour mode:</strong> CMYK.</li>
+                  <li><strong>Resolution:</strong> 150–200 dpi at final size.</li>
+                  <li><strong>File format:</strong> AI or PDF.</li>
+                  <li><strong>Margins:</strong> follow the template; keep key content 2 cm from the edges and leave 80–100 mm clear at the bottom.</li>
+                  <li><strong>File name:</strong> Applicant Name_Email_Topic_Title.</li>
+                  <li><strong>Submission:</strong> email the poster artwork to <a href="mailto:conference@isoad.org">conference@isoad.org</a>.</li>
+                  <li><strong>Deadline:</strong> 23:59, 26 November 2026 (Hong Kong time, UTC+8).</li>
+                </ul>
+                <a class="btn poster-template-btn" href="public/poster-template.ai" download>Download Poster Template</a>
+              </div>
+            </li>
             <li><strong style="color:var(--text)">Author and co-authors' details:</strong> full first and family name(s); affiliation details: department, institution / hospital, city, state (if relevant), country.</li>
             <li><strong style="color:var(--text)">Abstract:</strong>
               <ul style="margin:6px 0 0;padding-left:20px;display:grid;gap:6px;list-style:circle;">
