@@ -3,12 +3,6 @@ const IMG_DIR = "images/speakers/";
 
 const speakers = [
   {
-    name: "Prof. Christopher Chao",
-    role: "Acknowledgment",
-    title: "Senior Vice President, The Hong Kong Polytechnic University",
-    img: "christopher-chao.png"
-  },
-  {
     name: "Prof. Kunlin JIN",
     role: "Acknowledgment",
     title: "Professor, University of North Texas Health Science Center · Founding Editor-in-Chief, Aging and Disease",
