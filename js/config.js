@@ -113,7 +113,7 @@ const speakers = [
   {
     name: "Prof. Xue FENG",
     role: ["Keynote Speaker", "Longevity & Lifestyle Medicine Training"],
-    title: "Executive Deputy Director · Vice-Chair and Secretary-General · Director, Cardiac Rehabilitation Center",
+    title: "Executive Deputy Director, Center for Healthy Lifestyle Medicine, NCCD · Vice-Chair and Secretary-General, Expert Committee on Lifestyle Medicine, NCCD",
     img: "xue-feng.png"
   },
   {
