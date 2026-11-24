@@ -3,25 +3,25 @@ const IMG_DIR = "images/speakers/";
 
 const speakers = [
   {
-    name: "Christopher Chao",
+    name: "Prof. Christopher Chao",
     role: "Acknowledgment",
     title: "Senior Vice President, The Hong Kong Polytechnic University",
     img: "christopher-chao.png"
   },
   {
-    name: "Kunlin JIN",
+    name: "Prof. Kunlin JIN",
     role: "Acknowledgment",
     title: "Professor, University of North Texas Health Science Center · Founding Editor-in-Chief, Aging and Disease",
     img: "kunlin-jin.png"
   },
   {
-    name: "Xue BAI",
+    name: "Prof. Xue BAI",
     role: "Keynote Speaker",
     title: "Associate Dean, Faculty of Health and Social Sciences · Professor, Department of Applied Social Sciences",
     img: "xue-bai.jpg"
   },
   {
-    name: "Dean W. Felsher",
+    name: "Prof. Dean W. Felsher",
     role: "Keynote Speaker",
     title: "Professor of Medicine (Oncology) and of Pathology, Stanford University",
     img: "dean-felsher.png"
@@ -33,31 +33,31 @@ const speakers = [
   //   img: "mingguang-he.png"
   // },
   {
-    name: "Christine Huang",
+    name: "Dr. Christine Huang",
     role: "Keynote Speaker",
     title: "Founder & CEO, Quantum Life",
     img: "christine-huang.png"
   },
   {
-    name: "Zhihong JIANG",
+    name: "Prof. Zhihong JIANG",
     role: "Keynote Speaker",
     title: "Vice President, Macau University of Science and Technology · Director, State Key Laboratory for Quality Research in Chinese Medicines",
     img: "jiang-zhihong.png"
   },
   {
-    name: "Raju Kucherlapati",
+    name: "Prof. Raju Kucherlapati",
     role: "Keynote Speaker",
     title: "Professor of Genetics, Harvard Medical School · Member of the National Academy of Medicine",
     img: "raju-kucherlapati.png"
   },
   {
-    name: "Yang LIU",
+    name: "Prof. Yang LIU",
     role: "Keynote Speaker",
     title: "Co-Director of Research Institute of Federated Learning · Associate Professor, President Young Scholar, PolyU",
     img: "liu-yang.png"
   },
   {
-    name: "Alexey Moskalev",
+    name: "Prof. Alexey Moskalev",
     role: "Keynote Speaker",
     title: "Professor and Corresponding Member, the Russian Academy of Sciences",
     img: "alexey-moskalev.png"
@@ -75,25 +75,25 @@ const speakers = [
   //   img: "matthew-ngan.png"
   // },
   {
-    name: "Qiang YANG",
+    name: "Prof. Qiang YANG",
     role: "Keynote Speaker",
     title: "Director, PolyU Academy for Artificial Intelligence · Fellow of Royal Society of Canada · Fellow of Canadian Academy of Engineering",
     img: "yang-qiang.png"
   },
   {
-    name: "Yongping ZHENG",
+    name: "Prof. Yongping ZHENG",
     role: "Keynote Speaker",
     title: "Henry G. Leong Professor in Biomedical Engineering · Director, Research Institute for Smart Ageing · Director, Jockey Club Smart Ageing Hub",
     img: "yongping-zheng.png"
   },
   {
-    name: "Jiankang ZHU",
+    name: "Prof. Jiankang ZHU",
     role: "Keynote Speaker",
     title: "President, Macau University of Science and Technology · Member, U.S. National Academy of Sciences",
     img: "zhu-jiankang.png"
   },
   {
-    name: "Weimo ZHU",
+    name: "Prof. Weimo ZHU",
     role: "Keynote Speaker",
     title: "Fellow of the National Academy of Kinesiology · Professor Emeritus, University of Illinois Urbana-Champaign",
     img: "weimo-zhu.png"
@@ -105,49 +105,49 @@ const speakers = [
   //   img: "yoichi-nabeshima.png"
   // },
   {
-    name: "Evelyne Yehudit Bischof",
+    name: "Prof. Evelyne Yehudit Bischof",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Professor, Shanghai University of Medicine and Health Sciences, China · Visiting Professor, Tel Aviv University School of Medicine, Israel",
     img: "evelyne-bischof.png"
   },
   {
-    name: "Xue FENG",
+    name: "Prof. Xue FENG",
     role: ["Keynote Speaker", "Longevity & Lifestyle Medicine Training"],
     title: "Executive Deputy Director · Vice-Chair and Secretary-General · Director, Cardiac Rehabilitation Center",
     img: "xue-feng.png"
   },
   {
-    name: "Steve Horvath",
+    name: "Prof. Steve Horvath",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Professor, University of California, Los Angeles (UCLA) · Principal Investigator, Altos Labs San Diego Institute of Science",
     img: "steve-horvath.png"
   },
   {
-    name: "Edwin Lau",
+    name: "Dr. Edwin Lau",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Chief Medical Executive (Clinics), Parkway Medical Services",
     img: "edwin-lau.png"
   },
   {
-    name: "Yuxuan LYU",
+    name: "Prof. Yuxuan LYU",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Researcher, Faculty of Medicine, Macau University of Science and Technology · Associate Research Professor, Southern University of Science and Technology",
     img: "lv-yuxuan.png"
   },
   {
-    name: "Kenneth Mao",
+    name: "Dr. Kenneth Mao",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Specialist at Union Reproductive Medicine Centre · Fellow of the Royal College of Obstetricians and Gynaecologists",
     img: "kenneth-mao.png"
   },
   {
-    name: "Iva Ng",
+    name: "Ms. Iva Ng",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Founder, ING Bespoke · VP Business Growth, APAC, Acclaro Medical",
     img: "iva-ng.jpg"
   },
   {
-    name: "Wanviput Sanphasitvong",
+    name: "Dr. Wanviput Sanphasitvong",
     role: "Longevity & Lifestyle Medicine Training",
     title: "Business Development Director, Vitallife Scientific Wellness Center, Bumrungrad International Hospital · CEO, LifestyleTech Solution Co., Ltd.",
     img: "wanviput-sanphasitvong.jpg"
