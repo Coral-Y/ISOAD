@@ -276,5 +276,6 @@ h2 { font-size: clamp(26px, 4vw, 40px); }
   .partner-logos { flex-direction: column; }
   .partner-logo { width: 100%; flex: none; }
   .fees { grid-template-columns: 1fr; }
+  .program-venues { grid-template-columns: 1fr; }
   .talk { grid-template-columns: 1fr; gap: 4px; }
 }
