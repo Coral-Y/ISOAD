@@ -242,7 +242,7 @@ const program = [
               },
               {
                 label: "Training & Presentation Venue",
-                title: "Lecture Room",
+                title: "Lecture Room (GH201)",
                 meta: "10:30–12:30",
                 sections: [
                   {
@@ -289,7 +289,7 @@ const program = [
               },
               {
                 label: "Training & Presentation Venue",
-                title: "Lecture Room",
+                title: "Lecture Room (GH201)",
                 meta: "14:00–17:50",
                 sections: [
                   {
@@ -344,7 +344,7 @@ const program = [
               },
               {
                 label: "Training & Presentation Venue",
-                title: "Lecture Room",
+                title: "Lecture Room (GH201)",
                 meta: "09:00–14:00",
                 sections: [
                   {
@@ -395,7 +395,7 @@ const program = [
               },
               {
                 label: "Training & Presentation Venue",
-                title: "Lecture Room",
+                title: "Lecture Room (GH201)",
                 meta: "14:00–16:20",
                 sections: [
                   {
