@@ -18,7 +18,8 @@
   const daysEl = document.getElementById("program-days");
   if (!tabsEl || !daysEl) return;
 
-  const TRACK_CLASSES = ["t-a", "t-b", "t-c", "t-d"];
+  const TRACK_CLASSES = ["t-a", "t-b"];
+  const visibleProgram = program.filter(function (day) { return !day.hidden; });
 
   function renderSpeaker(t) {
     if (t.speaker) {
@@ -84,11 +85,11 @@
     return '<div class="block">' + renderHead("block-head", item) + (item.talks || []).map(renderTalk).join("") + '</div>';
   }
 
-  tabsEl.innerHTML = program.map(function (day, i) {
+  tabsEl.innerHTML = visibleProgram.map(function (day, i) {
     return '<button class="day-tab' + (i === 0 ? ' active' : '') + '" data-day="' + day.id + '">' + day.label + '</button>';
   }).join("");
 
-  daysEl.innerHTML = program.map(function (day, i) {
+  daysEl.innerHTML = visibleProgram.map(function (day, i) {
     return '<div class="day-panel' + (i === 0 ? ' active' : '') + '" id="' + day.id + '">' +
       day.periods.map(function (p) {
         return '<div class="period">' + p.name + '</div>' + p.items.map(renderItem).join("");
@@ -138,8 +139,11 @@
   }, []);
 
   function renderSpeakerCard(s) {
+    const avatar = s.img
+      ? '<img class="avatar" src="' + IMG_DIR + s.img + '" alt="' + s.name + '" />'
+      : '<div class="avatar speaker-avatar-placeholder" aria-hidden="true">' + s.name.split(/\s+/).slice(-2).map(function (part) { return part.charAt(0); }).join("") + '</div>';
     return '<div class="card speaker">' +
-      '<img class="avatar" src="' + IMG_DIR + s.img + '" alt="' + s.name + '" />' +
+      avatar +
       '<h3>' + s.name + '</h3>' +
       '<div class="title">' + s.title + '</div>' +
       '</div>';
